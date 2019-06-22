@@ -1,6 +1,7 @@
 <?php
 namespace Neas;
-require_once __DIR__ . './../vendor/autoload.php';
+// In production we dont need this line.
+//require_once __DIR__ . './../vendor/autoload.php';
 
 use Jose\Component\Core\AlgorithmManager;
 use Jose\Component\Core\JWK;
