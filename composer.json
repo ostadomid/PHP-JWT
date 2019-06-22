@@ -1,0 +1,23 @@
+{
+    "name": "neas/php-jwt",
+    "description": "A very simple helper class to work with JWT in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NEAS",
+            "email": "dev@neas.ir"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Neas\\":"src/"
+        }
+    },
+    "require": {
+        "web-token/jwt-signature": "^2.0",
+        "web-token/jwt-signature-algorithm-hmac": "^2.0",
+        "web-token/jwt-key-mgmt": "^2.0",
+        "web-token/jwt-checker": "^2.0"
+    }
+}
